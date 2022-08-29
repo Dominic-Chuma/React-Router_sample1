@@ -29,11 +29,13 @@ function App() {
       </header> */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
-            <Route index element={<Home/>} />
-            <Route path='blogs' element={<Blogs/>} />
+          <Route path="/" element={<Layout/>}> {/* This layout determines the default path...Subsequent paths are added to this one*/}
+          {/* Below are subsequent routes */}
+            <Route index element={<Home/>} /> {/* Route for index Page */}
+            <Route path='blogs' element={<Blogs/>} /> 
             <Route path='contact' element={<Contact/>} />
             <Route path='*' element={<NoPage/>} />
+            
           </Route>
         </Routes>
       </BrowserRouter>

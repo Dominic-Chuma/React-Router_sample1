@@ -1,4 +1,6 @@
 import {Outlet, Link} from "react-router-dom";
+// Import Bootstrap components...
+
 
 
 let Layout = () => {
