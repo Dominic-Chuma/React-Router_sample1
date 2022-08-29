@@ -1,3 +1,3 @@
 # React-Router_sample1
 
-
+This is an app with basic ideas on routing in React.....
